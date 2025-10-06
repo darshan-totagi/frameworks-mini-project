@@ -16,9 +16,14 @@ body {
     color: var(--muted);
 }
 
+/* Додаємо відступи до колонок */
+[class*="col-"] {
+    padding: 0.75rem;
+}
+
 .project-card {
-    margin-bottom: 2rem;
     height: 100%;
+    padding: 1.5rem;
 }
 
 .project-card h4 {
